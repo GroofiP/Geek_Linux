@@ -1,2 +1,0 @@
-# testgb
-GB test

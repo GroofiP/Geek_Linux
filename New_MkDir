@@ -1,0 +1,13 @@
+#!/bin/bash
+
+mkdir -p 20{10..17}/{01..12}
+touch 20{10..17}/{01..12}/00{1..2}.txt
+for i in {10..17}
+do
+        for j in {01..12}
+        do
+                echo "001" > 20$i/$j/001.txt
+                echo "002" > 20$i/$j/002.txt
+        done
+done
+
